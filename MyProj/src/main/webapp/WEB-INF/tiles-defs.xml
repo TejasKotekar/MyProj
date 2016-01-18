@@ -1,0 +1,24 @@
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+
+       
+ <tiles-definitions>
+ 
+ 	<definition name="hello">
+ 		<put-attribute name="page-title" value="Hello" />
+		<put-attribute name="app-body" value="/jsp/hello.jsp" />
+ 	</definition>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </tiles-definitions>

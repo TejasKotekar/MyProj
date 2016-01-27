@@ -33,11 +33,13 @@
 				</bean>
 			</list>
 		</property>
-	</bean>		 -->
-	
-	<context:component-scan base-package="com.tejas.my.controller">
-	
-	
+	</bean>		
+	 -->
+	<context:component-scan  annotation-config="true"
+				base-package="com.tejas.my.controller,
+							  com.tejas.my.model,
+							  com.tejas.my.service,
+					  com.tejas.my.dao">
 	
 	</context:component-scan>
 	
@@ -48,10 +50,10 @@
 	<bean
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix">
-			<value>/WEB-INF/</value>
+			<value>/jsp/</value> 
 		</property>
 		<property name="suffix">
-			<value>/.jsp</value>
+			<value>.jsp</value>
 		</property>
 	</bean>
 	
